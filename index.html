@@ -13,63 +13,70 @@
     <!-- sidebar -->
     <div class="image-sidebar">
         <img src="images/halie-west.jpg" alt="halie-west">
-        <div class="odin-logo">
+        <div class="logo-box">
             <img src="images/odin-lined.png" alt="odin-logo">
+            <span class="logo-text">Odin</span>
         </div>
     </div>
 
     <div class="container">
         <div class="text">
             <p>This is not a real online service! You know you need something like this in your life to help you realize
-                your deepest dreams.Sign up now to get started.
+                your deepest dreams. <br> Sign up <em>now</em> to get started!!
             </p>
             <p>
-                you know you want to.
+                You <em>know</em> you want to.
             </p>
+
         </div>
 
         <!-- Form -->
         <form action="#" method="po">
-            <h1>lets do this</h1>
-            <div class="info-row">
-                <div class="info-col">
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name" id="first-name">
-                </div>
-                <div class="info-col">
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" name="last-name" id="last-name">
-                </div>
-            </div>
-
-            <div class="info-row">
-                <div class="info-col">
-                    <label for="email-id">EMAIL</label>
-                    <input type="email" name="email-id" id="email-id">
+            <div class="form-input">
+                <h3>Lets do this</h3>
+                <div class="info-row">
+                    <div class="info-col">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Thor" required>
+                    </div>
+                    <div class="info-col">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Odinson" required>
+                    </div>
                 </div>
 
-                <div class="info-col">
-                    <label for="phone-no">PHONE NUMBER</label>
-                    <input type="tel" name="phone-no" id="phone-no">
-                </div>
-            </div>
+                <div class="info-row">
+                    <div class="info-col">
+                        <label for="email-id">EMAIL</label>
+                        <input type="email" name="email-id" id="email-id" required>
+                    </div>
 
-            <div class="info-row">
-                <div class="info-col">
-                    <label for="pass">PASSWORD</label>
-                    <input type="password" name="pass" id="pass">
+                    <div class="info-col">
+                        <label for="phone-no">PHONE NUMBER</label>
+                        <input type="tel" name="phone-no" id="phone-no" required>
+                    </div>
                 </div>
-                <div class="info-col">
-                    <label for="confirm-pass">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-pass" id="confirm-pass">
+
+                <div class="info-row">
+                    <div class="info-col">
+                        <label for="pass">PASSWORD</label>
+                        <input type="password" name="pass" id="pass" required>
+                    </div>
+                    <div class="info-col">
+                        <label for="confirm-pass">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-pass" id="confirm-pass" required>
+                    </div>
                 </div>
+
             </div>
-            <button type="submit">Submit</button>
+            <div class="button-box">
+                <button>Create account</button>
+                <p class="login-text">Already have an account? <a href="#">Log in</a></p>
+            </div>
         </form>
-        <div>
-            <p>already have an account? <a href="#">log in</a></p>
-        </div>
+
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
