@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+}
+
+body {
+    display: flex;
+    gap: 50px;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+.image-sidebar {
+    height: 100vh;
+    width: 25vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.image-sidebar img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.odin-logo {
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+
+
+.info-row {
+    display: flex;
+    gap: 30px;
+    padding: 0.5em;
+}
+
+.info-col {
+    font-size: 0.7em;
+    display: flex;
+    flex-direction: column;
+}
